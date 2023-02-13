@@ -45,3 +45,11 @@ main
 #about .container {
     color: white;
 }
+
+#info {
+    background-color: var(--ms-footer-background);
+}
+
+#info .container {
+    color: white;
+}
