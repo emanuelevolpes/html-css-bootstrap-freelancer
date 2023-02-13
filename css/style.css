@@ -53,3 +53,13 @@ main
 #info .container {
     color: white;
 }
+
+/*
+------------
+footer
+------------
+*/
+
+footer {
+    background-color: var(--ms-primary-background);
+}
