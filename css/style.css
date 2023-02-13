@@ -7,3 +7,16 @@ header {
 header .container .row {
     color: white;
 }
+
+#start-bootstrap {
+    background-color: var(--ms-secondary-background);
+}
+
+#start-bootstrap .container-sm .row .col:first-child {
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
+#start-bootstrap .container-sm .row .col:first-child > img {
+    width: 100%;
+}
