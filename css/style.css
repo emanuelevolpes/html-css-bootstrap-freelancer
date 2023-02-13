@@ -73,6 +73,21 @@ main
     color: white;
 }
 
+#info .container .row div:last-child > i {
+    margin-left: .3125rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    border: .0625rem solid white;
+    border-radius: 50%;
+}
+
+#info .container .row div small > a {
+    color: var(--ms-secondary-background);
+    text-decoration: none;
+}
+
 /*
 ------------
 footer
@@ -81,4 +96,8 @@ footer
 
 footer {
     background-color: var(--ms-primary-background);
+}
+
+footer .container {
+    color: white;
 }
