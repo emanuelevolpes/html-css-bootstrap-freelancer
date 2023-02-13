@@ -46,12 +46,23 @@ main
     color: white;
 }
 
-#about div button{
+#about div button,
+#contact .container form button {
     background-color: var(--ms-secondary-background);
     color: white;
     border: .0625rem solid white;
     border-radius: .3125rem;
     padding: .3125rem .625rem;
+}
+
+#contact .container form label {
+    display: inline-block;
+    width: 30%;
+}
+
+#contact .container form input {
+    display: inline-block;
+    width: 50%;
 }
 
 #info {
