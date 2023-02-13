@@ -1,5 +1,11 @@
 @import url(../variables/variables.css);
 
+/*
+------------
+header
+------------
+*/
+
 header {
     background-color: var(--ms-primary-background);
 }
@@ -7,6 +13,12 @@ header {
 header .container .row {
     color: white;
 }
+
+/*
+------------
+main
+------------
+*/
 
 #start-bootstrap {
     background-color: var(--ms-secondary-background);
@@ -19,4 +31,9 @@ header .container .row {
 
 #start-bootstrap .container-sm .row .col:first-child > img {
     width: 100%;
+}
+
+
+#portfolio .container .row .col {
+    background-color: aqua;
 }
