@@ -46,6 +46,14 @@ main
     color: white;
 }
 
+#about div button{
+    background-color: var(--ms-secondary-background);
+    color: white;
+    border: .0625rem solid white;
+    border-radius: .3125rem;
+    padding: .3125rem .625rem;
+}
+
 #info {
     background-color: var(--ms-footer-background);
 }
