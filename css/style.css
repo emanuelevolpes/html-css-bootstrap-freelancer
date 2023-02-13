@@ -10,7 +10,7 @@ header {
     background-color: var(--ms-primary-background);
 }
 
-header .container .row {
+header .container {
     color: white;
 }
 
@@ -36,4 +36,12 @@ main
 
 #portfolio .container .row .col {
     background-color: aqua;
+}
+
+#about {
+    background-color: var(--ms-secondary-background);
+}
+
+#about .container {
+    color: white;
 }
