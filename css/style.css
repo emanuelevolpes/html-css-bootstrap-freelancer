@@ -10,7 +10,8 @@ header {
     background-color: var(--ms-primary-background);
 }
 
-header .container {
+header .container-fluid > a,
+header .container-fluid .nav-item > a {
     color: white;
 }
 
@@ -33,9 +34,8 @@ main
     width: 100%;
 }
 
-
-#portfolio .container .row .col {
-    background-color: aqua;
+#start-bootstrap .container-sm .row {
+    color: white;
 }
 
 #about {
