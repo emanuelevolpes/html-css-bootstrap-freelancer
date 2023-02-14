@@ -1,0 +1,19 @@
+.starline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starline::before, .starline::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    max-width: 9.375rem;
+    width: 30%;
+    background-color: currentColor;
+}
+
+.starline i{
+    font-size: 1.25rem;
+    margin: .625rem;
+}

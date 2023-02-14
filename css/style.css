@@ -1,4 +1,5 @@
-@import url(../variables/variables.css);
+@import '../components/variables.css';
+@import '../components/starline.css';
 
 /*
 ------------
@@ -10,8 +11,8 @@ header {
     background-color: var(--ms-primary-background);
 }
 
-header .container-fluid > a,
-header .container-fluid .nav-item > a {
+header .container>a,
+header .container .nav-item>a {
     color: white;
 }
 
@@ -30,7 +31,7 @@ main
     width: 12.5rem;
 }
 
-#start-bootstrap .container-sm .row .col:first-child > img {
+#start-bootstrap .container-sm .row .col:first-child>img {
     width: 100%;
 }
 
@@ -55,16 +56,6 @@ main
     padding: .3125rem .625rem;
 }
 
-#contact .container form label {
-    display: inline-block;
-    width: 30%;
-}
-
-#contact .container form input {
-    display: inline-block;
-    width: 50%;
-}
-
 #info {
     background-color: var(--ms-footer-background);
 }
@@ -73,7 +64,7 @@ main
     color: white;
 }
 
-#info .container .row div:last-child > i {
+#info .container .row div:last-child>i {
     margin-left: .3125rem;
     height: 2.5rem;
     width: 2.5rem;
@@ -83,7 +74,7 @@ main
     border-radius: 50%;
 }
 
-#info .container .row div small > a {
+#info .container .row div small>a {
     color: var(--ms-secondary-background);
     text-decoration: none;
 }
